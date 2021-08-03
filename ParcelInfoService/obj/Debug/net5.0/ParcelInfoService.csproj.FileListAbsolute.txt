@@ -1,0 +1,15 @@
+C:\Users\apana\Desktop\Opinov8\ParcelInfoService\obj\Debug\net5.0\ParcelInfoService.csprojAssemblyReference.cache
+C:\Users\apana\Desktop\Opinov8\ParcelInfoService\obj\Debug\net5.0\ParcelInfoService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\apana\Desktop\Opinov8\ParcelInfoService\obj\Debug\net5.0\ParcelInfoService.AssemblyInfoInputs.cache
+C:\Users\apana\Desktop\Opinov8\ParcelInfoService\obj\Debug\net5.0\ParcelInfoService.AssemblyInfo.cs
+C:\Users\apana\Desktop\Opinov8\ParcelInfoService\obj\Debug\net5.0\ParcelInfoService.csproj.CoreCompileInputs.cache
+C:\Users\apana\Desktop\Opinov8\ParcelInfoService\bin\Debug\net5.0\ParcelInfoService.deps.json
+C:\Users\apana\Desktop\Opinov8\ParcelInfoService\bin\Debug\net5.0\ParcelInfoService.dll
+C:\Users\apana\Desktop\Opinov8\ParcelInfoService\bin\Debug\net5.0\ref\ParcelInfoService.dll
+C:\Users\apana\Desktop\Opinov8\ParcelInfoService\bin\Debug\net5.0\ParcelInfoService.pdb
+C:\Users\apana\Desktop\Opinov8\ParcelInfoService\obj\Debug\net5.0\ParcelInfoService.dll
+C:\Users\apana\Desktop\Opinov8\ParcelInfoService\obj\Debug\net5.0\ref\ParcelInfoService.dll
+C:\Users\apana\Desktop\Opinov8\ParcelInfoService\obj\Debug\net5.0\ParcelInfoService.pdb
+C:\Users\apana\Desktop\Opinov8\ParcelInfoService\bin\Debug\net5.0\MongoLib.dll
+C:\Users\apana\Desktop\Opinov8\ParcelInfoService\bin\Debug\net5.0\MongoLib.pdb
+C:\Users\apana\Desktop\Opinov8\ParcelInfoService\obj\Debug\net5.0\ParcelInfoService.csproj.CopyComplete
