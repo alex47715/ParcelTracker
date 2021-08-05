@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{68BEE459-F1D9-4A0F-97EE-4C4296919FCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{E1E53842-8E68-4DF5-8809-6F2F3C0956E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{1E8ADCEE-189E-4D37-9F46-2C0CB4172122}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A2CBD426-36CF-4210-B943-AD37988ACA4E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParcelInfo.API", "ParcelInfo.API\ParcelInfo.API.csproj", "{9B980CFE-780B-4200-B4FC-6018E9B1FD0F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParcelInfoService", "ParcelService.Info\ParcelInfoService.csproj", "{FD4E7EFD-A597-4C07-8FCD-2E1DB0C00C2E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoLib", "MongoLib\MongoLib.csproj", "{4296519D-8D66-4E5E-A567-32238A97EE34}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParcelInfoTests", "ParcelInfoTests\ParcelInfoTests.csproj", "{DCAA1BDC-B35E-4CB0-BE74-A8B6EF3CE61A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B980CFE-780B-4200-B4FC-6018E9B1FD0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B980CFE-780B-4200-B4FC-6018E9B1FD0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B980CFE-780B-4200-B4FC-6018E9B1FD0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B980CFE-780B-4200-B4FC-6018E9B1FD0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD4E7EFD-A597-4C07-8FCD-2E1DB0C00C2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD4E7EFD-A597-4C07-8FCD-2E1DB0C00C2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD4E7EFD-A597-4C07-8FCD-2E1DB0C00C2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD4E7EFD-A597-4C07-8FCD-2E1DB0C00C2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4296519D-8D66-4E5E-A567-32238A97EE34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4296519D-8D66-4E5E-A567-32238A97EE34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4296519D-8D66-4E5E-A567-32238A97EE34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4296519D-8D66-4E5E-A567-32238A97EE34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCAA1BDC-B35E-4CB0-BE74-A8B6EF3CE61A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCAA1BDC-B35E-4CB0-BE74-A8B6EF3CE61A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCAA1BDC-B35E-4CB0-BE74-A8B6EF3CE61A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCAA1BDC-B35E-4CB0-BE74-A8B6EF3CE61A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9B980CFE-780B-4200-B4FC-6018E9B1FD0F} = {68BEE459-F1D9-4A0F-97EE-4C4296919FCF}
+		{FD4E7EFD-A597-4C07-8FCD-2E1DB0C00C2E} = {E1E53842-8E68-4DF5-8809-6F2F3C0956E4}
+		{4296519D-8D66-4E5E-A567-32238A97EE34} = {1E8ADCEE-189E-4D37-9F46-2C0CB4172122}
+		{DCAA1BDC-B35E-4CB0-BE74-A8B6EF3CE61A} = {A2CBD426-36CF-4210-B943-AD37988ACA4E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {255B3807-6C38-417E-9AFF-0DC89EAEB86D}
+	EndGlobalSection
+EndGlobal

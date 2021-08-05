@@ -15,8 +15,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MailApplication\ParcelInfo.API.csproj" />
-    <ProjectReference Include="..\ParcelInfoService\ParcelInfoService.csproj" />
+    <ProjectReference Include="..\ParcelInfo.API\ParcelInfo.API.csproj" />
+    <ProjectReference Include="..\ParcelService.Info\ParcelInfoService.csproj" />
   </ItemGroup>
 
 </Project>

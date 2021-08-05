@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ParcelInfoService\ParcelInfoService.csproj" />
+    <ProjectReference Include="..\ParcelService.Info\ParcelInfoService.csproj" />
   </ItemGroup>
 
 </Project>

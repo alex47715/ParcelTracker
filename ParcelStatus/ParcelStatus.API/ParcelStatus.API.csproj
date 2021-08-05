@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ParcelStatusService\ParcelStatusService.csproj" />
+    <ProjectReference Include="..\ParcelService.Status\ParcelService.Status.csproj" />
   </ItemGroup>
 
 </Project>
