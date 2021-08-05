@@ -29,6 +29,8 @@ x86/
 bld/
 [Bb]in/
 DapperLibrarie/[Bb]in/
+**/[Bb]in/
+**/[Bb]in
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
