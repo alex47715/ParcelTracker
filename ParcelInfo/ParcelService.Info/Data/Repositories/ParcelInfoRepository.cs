@@ -35,23 +35,19 @@ namespace ParcelInfoService.Data.MongoRepository
         {
             await ParcelsCollection.InsertOneAsync(parcel.ToBsonDocument());
             return true;
-            
         }
 
         public async Task<bool> DeleteParcel(string id)
         {
-
             var result = await ParcelsCollection.DeleteOneAsync(new BsonDocument("ParcelId",id));
             if (result.DeletedCount == 0)
                 throw new Exception("Cant delete parcel");
             return true;
-            
-            
         }
 
         public async Task<ParcelModel> GetParcelById(string id)
         {
-            var projection = Builders<BsonDocument>.Projection.Expression(p => new ParcelModel { ParcelId = p.GetValue("ParcelId").ToString(), SenderName = p.GetValue("SenderName").ToString() });
+            var projection = Builders<BsonDocument>.Projection.Expression(p => new ParcelModel { ParcelId = p.GetValue("ParcelId").ToString(), SenderName = p.GetValue("SenderName").ToString(), RecipientName = p.GetValue("RecipientName").ToString(), Weight = p.GetValue("Weight").ToDouble()});
             var result = await ParcelsCollection.Find(new BsonDocument("ParcelId", id)).Project(projection).FirstOrDefaultAsync();
 
             if (result == null)

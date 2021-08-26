@@ -68,8 +68,10 @@ namespace MailApplication.Controllers
 
             if (await _statusHelper.CheckStatus(id, StatusENUM.ReadyToShip))
             {
+                await _parcelStatusManager.StartSending(id);
                 await _parcelStatusManager.UpdateStatus(StatusENUM.ReadyToShip, id);
-                return Ok("Success status change");
+
+                return Ok("Status change and sending message to queue Success");
             }
             else
             {
